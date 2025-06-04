@@ -1,0 +1,372 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Anushka's Portfolio</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background-color: #f5f5f5;
+    }
+    header {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 10px 20px;
+      background-color: #333;
+      color: white;
+    }
+    .logo {
+      height: 50px;
+    }
+    .Portfolio {
+      font-size: 24px;
+      font-weight: bold;
+    }
+    .navbar button {
+      margin-left: 10px;
+      padding: 10px;
+      background-color: #555;
+      color: white;
+      border: none;
+      border-radius: 4px;
+      cursor: pointer;
+    }
+    .navbar button:hover {
+      background-color: #777;
+    }
+    .page {
+      display: none;
+      padding: 20px;
+    }
+    .active {
+      display: block;
+    }
+  </style>
+</head>
+<body onload="showSection('home')">
+  <div id="main-content">
+    
+    <header>
+      <img src="https://img.freepik.com/premium-vector/ap-logo-design_705304-877.jpg" alt="Logo" class="logo">
+      <span class="Portfolio">Anushka's Portfolio</span>
+      <nav class="navbar">
+        <button onclick="showSection('home')">Home</button>
+        <button onclick="showSection('about')">About Me</button>
+        <button onclick="showSection('skills')">Skills</button>
+        <button onclick="showSection('projects')">Projects and Experience</button>
+        <button onclick="showSection('contact')">Contact details</button>
+      </nav>
+    </header>
+
+   
+    <section id="home" class="page">
+	<h1>" Passionate Developer Focused on User-Centric Design & Clean Code !" </h1>
+    <div style="display: flex; align-items: center; gap: 20px; background-color: white; padding: 20px; border-radius: 10px; 
+	box-shadow: 0 4px 10px rgba(0,0,0,0.1); max-width: 1000px; margin: 40px auto;">
+    <img src="https://images.unsplash.com/photo-1518655048521-f130df041f66?fm=jpg&q=60&w=3000&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8cG9ydGZvbGlvJTIwYmFja2dyb3VuZHxlbnwwfHwwfHx8MA%3D%3D" alt="Watermark" style="
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  object-fit: cover;
+  opacity: 0.1;
+  pointer-events: none;
+  z-index: 0;
+">  
+    <p>
+	 <br>
+	I am a second-year B.Tech student in Computer Science and Engineering, currently pursuing a dual degree in BS in Data Science<br>
+    and Applications from IIT Madras. My academic journey reflects a strong commitment to expanding my expertise in both core computer<br>
+    science and modern data-driven technologies.With a solid foundation in programming, data structures, and web development, I have<br>
+    developed projects using HTML, CSS, JavaScript, alongside backend concepts. Through my coursework at IIT Madras, I am gaining hands-on<br>
+    exposure to data science fundamentals, statistical modeling, and applied machine learning.
+    </p>
+    <p>
+    I actively engage in coding challenges and problem-solving, to sharpen my logical thinking. I am passionate about building impactful <br>
+     solutions at the intersection of software engineering and data analytics. My goal is to evolve into a well-rounded developer and data<br>
+      professional—equipped not only with technical depth but also with a problem-solving mindset and a keen understanding of real-world<br>
+       applications.
+    </p>
+    </section>
+
+
+    <section id="about" class="page">
+      <h2>About Me</h2>
+	  <div style="display: flex; align-items: center; gap: 20px; background-color: white; padding: 20px; border-radius: 10px; 
+	  box-shadow: 0 4px 10px rgba(0,0,0,0.1); max-width: 1000px; margin: 40px auto;">
+	<img src="https://images.unsplash.com/photo-1518655048521-f130df041f66?fm=jpg&q=60&w=3000&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8cG9ydGZvbGlvJTIwYmFja2dyb3VuZHxlbnwwfHwwfHx8MA%3D%3D" alt="Watermark" style="
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  object-fit: cover;
+  opacity: 0.1;
+  pointer-events: none;
+  z-index: 0;
+">
+    <img src="images/photo-1.jpg" alt="Photo" style="width: 200px; height: auto; border-radius: 8px;">
+	  <p>
+        <u> About Me</u><br>
+	Hello! I’m Anushka Phadke, a second-year B.Tech Computer Science and Engineering student, also enrolled in the BS in <br>
+    Data Science and Applications program at IIT Madras. I have a strong passion for technology, problem-solving, and <br>
+    creating meaningful digital solutions. My academic journey has equipped me with a solid foundation in programming (C/C++, Python),<br>
+    data structures, web development, and introductory machine learning. I'm particularly interested in the intersection of software <br>
+    development and data science, and I’m continuously working on improving my skills through hands-on projects, online platforms like.<br>
+    I strive to be a versatile tech professional who values both clean, efficient code and user-centric design. I’m always eager to <br>
+    learn, collaborate, and contribute to projects that make a difference.
+
+		</div> <br>
+    </section>
+
+    
+    <section id="skills" class="page">
+    <h2>Skills</h2>
+     <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Skills</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: #f9f9f9;
+            margin: 20px;
+        }
+        h1 {
+            text-align: center;
+            color: #333;
+            margin-bottom: 30px;
+        }
+        .skill-container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 20px;
+        }
+        .skill-item {
+            background-color: #fff;
+            border: 1px solid #ddd;
+            border-radius: 10px;
+            width: 250px;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+            overflow: hidden;
+            transition: transform 0.2s;
+        }
+        .skill-item:hover {
+            transform: scale(1.02);
+        }
+        .skill-item img {
+            width: 100%;
+            height: 180px;
+            object-fit: cover;
+        }
+        .skill-content {
+            padding: 15px;
+        }
+        .skill-name {
+            font-size: 18px;
+            font-weight: bold;
+            margin-bottom: 5px;
+            color: #222;
+        }
+        .skill-description {
+            font-size: 14px;
+            color: #666;
+            margin-bottom: 10px;
+        }
+        
+    </style>
+</head>
+<body>
+
+    <h1>My Skills</h1>
+	<img src="https://images.unsplash.com/photo-1518655048521-f130df041f66?fm=jpg&q=60&w=3000&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8cG9ydGZvbGlvJTIwYmFja2dyb3VuZHxlbnwwfHwwfHx8MA%3D%3D" alt="Watermark" style="
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100vw;
+	height: 100vh;
+	object-fit: cover;
+	opacity: 0.1;
+	pointer-events: none;
+	z-index: 0;">
+    <div class="skill-container">
+        <div class="skill-item">
+            <img src="data:image/jpeg;base64,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" alt="Communication Skills">
+            <div class="skill-content">
+                <div class="skill-name">Communication Skills</div>
+                <div class="skill-description">I possess strong verbal and written communication skills, which allow me to<br>
+                    express ideas clearly and confidently in both technical and non-technical settings. I am comfortable<br>
+                    presenting in front of groups, collaborating effectively within teams, and articulating project goals,<br>
+                    findings, and feedback. Whether it’s through reports, discussions, or presentations, I strive to ensure <br>
+                    clarity, professionalism, and mutual understanding in all forms of communication.
+                </div>       
+            </div>
+        </div>
+
+        <div class="skill-item">
+            <img src="images/ps.jpg" alt="Presentation skills">
+            <div class="skill-content">
+                <div class="skill-name">Presentation skills</div>
+                <div class="skill-description">I have well-developed presentation skills, with the ability to structure<br>
+                     and deliver content in a clear, engaging, and professional manner. I am confident in explaining <br>
+                     complex topics to diverse audiences, using visual aids and storytelling to enhance understanding. <br>
+                     Through academic projects and team activities, I’ve gained experience in preparing effective slides, <br>
+                     maintaining audience engagement, and responding thoughtfully to questions and feedback.
+                </div>
+            </div>
+        </div>
+
+        <div class="skill-item">
+            <img src="images/tw.jpeg" alt="Teamwork">
+            <div class="skill-content">
+                <div class="skill-name">Teamwork</div>
+                <div class="skill-description">I am a collaborative and dependable team member who values open communication,<br>
+                     mutual respect, and shared responsibility. I actively contribute to group discussions, support peers in <br>
+                     achieving common goals, and adapt well to different working styles. Through academic projects and group <br>
+                     assignments, I’ve developed the ability to coordinate tasks, resolve conflicts constructively, and maintain<br>
+                      a positive and productive team environment.
+				</div>
+            </div>
+        </div>
+		<div class="skill-item">
+            <img src="images/c.png" alt="C-language">
+            <div class="skill-content">
+                <div class="skill-name">C-language</div>
+                <div class="skill-description">Proficient in programming with C language, with a strong understanding of core<br>
+                     concepts such as variables, data types, control structures, functions, pointers, arrays, and memory <br>
+                     management. Experienced in writing efficient, modular code and solving problems using structured programming<br>
+                      techniques. Familiar with debugging and optimizing C programs through hands-on academic projects and practice.
+				</div>
+            </div>
+        </div>
+        <div class="skill-item">
+            <img src="images/cpp.png" alt="C++ programming">
+            <div class="skill-content">
+                <div class="skill-name">C++ language</div>
+                <div class="skill-description">Skilled in C++ programming, with a solid grasp of object-oriented concepts <br>
+                     such as classes, inheritance, polymorphism, encapsulation, and abstraction. Experienced in using C++ for<br>
+                      solving data structure and algorithm-based problems, implementing concepts like STL (Standard Template <br>
+                       Library), recursion, and dynamic memory management. Comfortable with writing clean, efficient, and <br>
+                       modular code for both academic projects and coding platforms.
+				</div>
+            </div>
+        </div>
+		<div class="skill-item">
+            <img src="images/dsa.png" alt="DSA">
+            <div class="skill-content">
+                <div class="skill-name">Data Structure and Algorithm</div>
+                <div class="skill-description">Strong foundation in Data Structures and Algorithms (DSA), with hands-on <br>
+                    experience in solving problems involving arrays, linked lists, stacks, queues, trees, graphs, recursion,<br>
+                     sorting algorithms, and dynamic programming. Skilled in analyzing time and space complexity to write <br>
+                     optimized solutions. Regularly practice DSA through coding platforms like LeetCode, HackerRank, and <br>
+                      CodeStudio to strengthen problem-solving and logical thinking abilities.
+				</div>
+            </div>
+        </div>
+		<div class="skill-item">
+            <img src="images/html.png" alt="HTML">
+            <div class="skill-content">
+                <div class="skill-name">HTML</div>
+                <div class="skill-description">Proficient in HTML5, with the ability to structure clean, semantic, and<br>
+                     accessible web pages. Experienced in creating responsive layouts using appropriate tags and attributes,<br>
+                      including forms, tables, multimedia elements, and navigation structures. Well-versed in following best<br>
+                       practices for SEO-friendly and maintainable code as part of modern web development.
+				</div>
+            </div>
+        </div>
+		<div class="skill-item">
+            <img src="images/css.png" alt="CSS">
+            <div class="skill-content">
+                <div class="skill-name">CSS</div>
+                <div class="skill-description">Skilled in CSS3 for designing visually appealing and responsive web interfaces. <br>
+                    Proficient in applying styles through selectors, flexbox, grid, and media queries to create adaptive layouts<br>
+                     for various screen sizes. Experienced in using animations, transitions, and custom themes to enhance user<br>
+                      experience. Familiar with organizing styles using modular and maintainable code practices.
+				</div>
+            </div>
+        </div>
+		<div class="skill-item">
+            <img src="images/python.jpg" alt="Python">
+            <div class="skill-content">
+                <div class="skill-name">Python </div>
+                <div class="skill-description">Proficient in Python programming, with a strong understanding of core concepts<br>
+                     such as variables, data types, control structures, functions, file handling, and object-oriented <br>
+                     programming. Experienced in using Python for data manipulation, automation, and problem-solving. <br>
+                     Familiar with libraries such as NumPy and Pandas, and currently exploring its applications in data <br>
+                     science and machine learning through academic coursework and projects.
+				</div>
+            </div>
+        </div>	
+    </div>
+
+</body>
+</html>
+</section>
+
+    <section id="projects" class="page">
+      <h2>Projects and Experiences </h2>
+        <div style="display: flex; align-items: center; gap: 20px; background-color: white; padding: 20px; border-radius: 10px; 
+	  box-shadow: 0 4px 10px rgba(0,0,0,0.1); max-width: 1000px; margin: 40px auto;">
+	<img src="https://images.unsplash.com/photo-1518655048521-f130df041f66?fm=jpg&q=60&w=3000&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8cG9ydGZvbGlvJTIwYmFja2dyb3VuZHxlbnwwfHwwfHx8MA%3D%3D" alt="Watermark" style="
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  object-fit: cover;
+  opacity: 0.1;
+  pointer-events: none;
+  z-index: 0;
+">
+    <img src="https://media.licdn.com/dms/image/v2/C4D0BAQFVBPbc6-yxoA/company-logo_200_200/company-logo_200_200/0/1677167041761?e=2147483647&v=beta&t=xBxH4zLgiEO1RCPbZemcdWDMIZFXROtM2c11jjdQHus" alt="Internship" style="width: 200px; height: auto; border-radius: 8px;">
+	  <p>
+        Currently pursuing an internship in Web Development (Frontend Technologies) at CodeAlpha, <br>
+        where I am gaining practical experience in building responsive and interactive user interfaces. <br>
+        My role involves working with HTML, CSS, JavaScript, and frontend libraries to develop user-friendly <br>
+        web pages, optimize UI performance, and ensure cross-browser compatibility. This internship is <br>
+        enhancing my skills in real-world web development, version control (Git), and collaborative <br>
+        project workflows.
+      </p>
+		</div> 
+    </section>
+
+    
+    <section id="contact" class="page">
+      <h2>Contact Details</h2>
+      <div style="display: flex; align-items: center; gap: 20px; background-color: white; padding: 20px; border-radius: 10px; 
+          box-shadow: 0 4px 10px rgba(0,0,0,0.1); max-width: 1000px; margin: 40px auto;">
+        <img src="https://images.unsplash.com/photo-1518655048521-f130df041f66?fm=jpg&q=60&w=3000&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8cG9ydGZvbGlvJTIwYmFja2dyb3VuZHxlbnwwfHwwfHx8MA%3D%3D" alt="Watermark" style="
+          position: fixed;
+          top: 0;
+          left: 0;
+          width: 100vw;
+          height: 100vh;
+          object-fit: cover;
+          opacity: 0.1;
+          pointer-events: none;
+          z-index: 0;">
+        <p>
+          You can reach me at:<br><br>
+          <strong>Email:</strong> anushka@gmail.com<br>
+          <strong>Phone:</strong> +91 xxxxxxxxxx<br>
+          <strong>LinkedIn:</strong> linkedin.com/in/anushkaphadke<br>
+        </p>
+      </div>
+    </section>
+  </div>
+
+  <script>
+    function showSection(id) {
+      const sections = document.querySelectorAll('.page');
+      sections.forEach(section => section.classList.remove('active'));
+      document.getElementById(id).classList.add('active');
+    }
+  </script>
+</body>
+</html>
